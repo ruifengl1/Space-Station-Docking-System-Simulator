@@ -17,7 +17,7 @@ At high level, there are three main parts in the system, including arrival wait 
 
 
 ## System diagram
-<img src="./resources/system_diagram.png" alt="drawing" width="250"/>
+<img src="./resources/system_diagram.png" alt="drawing" width="300"/>
 
 ## System design and components
 - Producer: Generates new cargo ships arriving at the USS Emafor wait zone, subject to room being available. The times between arrivals will be varied.
