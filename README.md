@@ -4,7 +4,8 @@
 In this project, we are going to implement a concurrent system to explore the behaviour of a complex system. 
 
 ## Background and context
-At high level, there are three main parts in the system, including arrival wait zone, USS Emafor’s berth and departure zone.  
+There are three main parts in the system, including arrival wait zone, USS Emafor’s berth and departure wait zone.  
+
 ### Steps:
 1. Cargo ships arrive at an arrival wait zone, approximately ten kilometres from the Emafor.
 2. A pilot is transported to the cargo ship to safely handle operations, approaching, docking, unloading of cargo, undocking and departuring.
