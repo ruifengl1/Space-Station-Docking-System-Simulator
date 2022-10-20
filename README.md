@@ -17,8 +17,9 @@ At high level, there are three main parts in the system, including arrival wait 
 
 
 ## System diagram
-<img src="./resources/system_diagram.png" alt="drawing" width="300"/>
-
+<p align="center">
+    <img src="./resources/system_diagram.png" alt="drawing" width="300"/>
+</p>
 ## System design and components
 - Producer: Generates new cargo ships arriving at the USS Emafor wait zone, subject to room being available. The times between arrivals will be varied.
 - Consumer: Removes cargo ships who have ﬁnished unloading, once they have undocked and returned to the wait zone. Departing ships leave the wait zone immediately.
@@ -29,4 +30,6 @@ At high level, there are three main parts in the system, including arrival wait 
 
 ## Metrics
 The simulator produced a trace of events below.  
-<img src="./resources/simulation_results.png" alt="drawing" width="200"/>
+<p align="center">
+    <img src="./resources/simulation_results.png" alt="drawing" width="200"/>
+</p>
